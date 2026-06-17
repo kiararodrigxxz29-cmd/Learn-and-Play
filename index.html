@@ -1,11 +1,12 @@
-<!DOCTYPE html>
+
+     <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avance: Plataforma Educativa Interactiva</title>
     <style>
-    
+      
         body {
             font-family: 'Arial Rounded MT Bold', 'Arial', sans-serif;
             background: linear-gradient(-45deg, #ff9a9e, #fecfef, #a1c4fd, #c2e9fb);
@@ -59,7 +60,6 @@
             background-color: #ff7300;
         }
 
-
         .section {
             background-color: rgba(255, 255, 255, 0.9);
             padding: 25px;
@@ -106,7 +106,6 @@
         .correct { color: #28a745; }
         .incorrect { color: #dc3545; }
 
-        
         .media-container {
             display: grid;
             grid-template-columns: 1fr;
@@ -126,7 +125,7 @@
             align-items: center;
         }
 
-      
+        
         .btn-interactive-red {
             display: inline-block;
             background-color: #ff4b5c;
@@ -140,7 +139,7 @@
             outline: 6px solid #ff4b5c;
             cursor: pointer;
             transition: transform 0.2s;
-            margin-top: 5px;
+            margin-top: 15px;
             margin-bottom: 5px;
         }
 
@@ -160,7 +159,7 @@
 <body>
 
     <header>
-        <h1>¡Learn and Play un Mundo de Aprendizajes Divertidos! 🌟</h1>
+        <h1>¡Mundo de Aprendizaje Divertido! 🌟</h1>
         <p>Avance del Proyecto Educativo (Fase Inicial):</p>
         <div class="nav-buttons">
             <button class="nav-btn" style="background-color: #ff7300;">Nivel Inicial (3-6 años) - Activo</button>
@@ -168,12 +167,12 @@
     </header>
 
     <section id="inicial" class="section">
-        <h2>🎨 Nivel Inicial (3-6 años)</h2>
+        <h2>🎨 Nivel Inicial (Jardín: 3 a 6 años)</h2>
         <hr>
 
         <div class="course-box">
-            <h3>Matemática Divertida</h3>
-            <p>1. ¿Cuántos patitos hay si solo esta la patito mamá y dos patitos bebés?</p>
+            <h3>🔢 Matemática Divertida</h3>
+            <p>1. ¿Cuántos patitos ves en la imagen si hay un patito mamá y dos patitos bebés?</p>
             <div class="options-container">
                 <button class="option-btn" onclick="checkAnswer(this, false)">1 patito</button>
                 <button class="option-btn" onclick="checkAnswer(this, true)">3 patitos</button>
@@ -182,7 +181,7 @@
             <div class="feedback"></div>
             
             <br>
-            <p>2. ¿De qué color son las hojas de los arboles?</p>
+            <p>2. ¿De qué color es el círculo de las señales de pare o stop?</p>
             <div class="options-container">
                 <button class="option-btn" onclick="checkAnswer(this, true)">Rojo</button>
                 <button class="option-btn" onclick="checkAnswer(this, false)">Verde</button>
@@ -208,7 +207,7 @@
         </div>
 
         <div class="course-box">
-            <h3>Comunicación</h3>
+            <h3>🗣️ Comunicación</h3>
             <p>1. ¿Con qué vocal empieza la palabra <b>"Avión"</b>?</p>
             <div class="options-container">
                 <button class="option-btn" onclick="checkAnswer(this, false)">La vocal E</button>
@@ -242,7 +241,7 @@
         </div>
 
         <div class="course-box">
-            <h3>Inglés Inicial</h3>
+            <h3>🇬🇧 Inglés Inicial</h3>
             <p>1. ¿Cómo decimos el color <b>"Rojo"</b> en inglés?</p>
             <div class="options-container">
                 <button class="option-btn" onclick="checkAnswer(this, true)">Red</button>
@@ -276,7 +275,7 @@
         </div>
 
         <div class="course-box">
-            <h3>Historia del Perú (inicial)</h3>
+            <h3>🦙 Historia del Perú (Jardín)</h3>
             <p>1. ¿De qué colores es nuestra hermosa bandera del Perú?</p>
             <div class="options-container">
                 <button class="option-btn" onclick="checkAnswer(this, true)">Rojo y Blanco</button>
